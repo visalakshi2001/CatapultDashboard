@@ -1,0 +1,6 @@
+ReqID,ReqName,ReqDescription,System,SatisfiedBy
+TR-1,Max Range,The Weapon shall have a maximum range up to 2m.,catapultSystem,launchArmAssembly
+TR-2,Min Range,The Weapon shall hit targets at a minimum range of 1 meter.,catapultSystem,launchArmAssembly
+TR-3,Launch Velocity,The Weapon shall produce a launch velocity between TBD and TBD m/s.,catapultSystem,launchArmAssembly
+TR-4,Quadrant Elevation (QE),The Weapon shall operate between QEs of 600 to 1500 mils.,catapultSystem,launchArmAssembly
+TR-5,Ergonomic Soldier Interface,"The Weapon shall provide an ergonomic interface for the operator to emplace, load and launch the Weapon.",catapultSystem,acceptTeamInput

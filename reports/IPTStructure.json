@@ -1,0 +1,28 @@
+{ "head": {
+    "vars": [ "IPT" , "Person" , "Role" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "IPT": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#integratedProductTeam" } ,
+        "Person": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#person3" } ,
+        "Role": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#productAssuranceEngineer" }
+      } ,
+      { 
+        "IPT": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#integratedProductTeam" } ,
+        "Person": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#person4" } ,
+        "Role": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#projectileSME" }
+      } ,
+      { 
+        "IPT": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#integratedProductTeam" } ,
+        "Person": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#person1" } ,
+        "Role": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystemSME" }
+      } ,
+      { 
+        "IPT": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#integratedProductTeam" } ,
+        "Person": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#person2" } ,
+        "Role": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#designEngineeringLead" }
+      }
+    ]
+  }
+}

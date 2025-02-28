@@ -1,0 +1,4 @@
+catapult/
+__pycache__/
+
+jsontocsv.py

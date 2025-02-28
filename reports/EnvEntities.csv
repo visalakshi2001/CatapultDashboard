@@ -1,0 +1,5 @@
+Env,EnvEntities,EnvQualities
+catapultEnvironment,catapultSystem,temperature
+catapultEnvironment,catapultSystem,humidity
+catapultEnvironment,catapultSystem,airFlowDraft
+catapultEnvironment,catapultSystem,noise

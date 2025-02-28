@@ -1,0 +1,38 @@
+{ "head": {
+    "vars": [ "Mission" , "Env" , "MissionEntities" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "Mission": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultMission" } ,
+        "Env": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultEnvironment" } ,
+        "MissionEntities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#target" }
+      } ,
+      { 
+        "Mission": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultMission" } ,
+        "Env": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultEnvironment" } ,
+        "MissionEntities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#judge" }
+      } ,
+      { 
+        "Mission": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultMission" } ,
+        "Env": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultEnvironment" } ,
+        "MissionEntities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#competingTeams" }
+      } ,
+      { 
+        "Mission": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultMission" } ,
+        "Env": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultEnvironment" } ,
+        "MissionEntities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#integratedProductTeam" }
+      } ,
+      { 
+        "Mission": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultMission" } ,
+        "Env": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultEnvironment" } ,
+        "MissionEntities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#director" }
+      } ,
+      { 
+        "Mission": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultMission" } ,
+        "Env": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultEnvironment" } ,
+        "MissionEntities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#projectile" }
+      }
+    ]
+  }
+}

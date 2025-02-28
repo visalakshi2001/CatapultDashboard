@@ -1,0 +1,28 @@
+{ "head": {
+    "vars": [ "Env" , "EnvEntities" , "EnvQualities" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "Env": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultEnvironment" } ,
+        "EnvEntities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "EnvQualities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#temperature" }
+      } ,
+      { 
+        "Env": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultEnvironment" } ,
+        "EnvEntities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "EnvQualities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#humidity" }
+      } ,
+      { 
+        "Env": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultEnvironment" } ,
+        "EnvEntities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "EnvQualities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#airFlowDraft" }
+      } ,
+      { 
+        "Env": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultEnvironment" } ,
+        "EnvEntities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "EnvQualities": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#noise" }
+      }
+    ]
+  }
+}

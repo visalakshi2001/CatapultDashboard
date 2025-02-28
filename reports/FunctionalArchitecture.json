@@ -1,0 +1,68 @@
+{ "head": {
+    "vars": [ "SOI" , "SystemFunction" , "SubFunction" , "SubSubFunction" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SystemFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#launchProjectile" } ,
+        "SubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#accelerateProjectile" } ,
+        "SubSubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#releaseEnergy" }
+      } ,
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SystemFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#launchProjectile" } ,
+        "SubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#accelerateProjectile" } ,
+        "SubSubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#translateToKineticEnergy" }
+      } ,
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SystemFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#launchProjectile" } ,
+        "SubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#accelerateProjectile" } ,
+        "SubSubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#storePotentialEnergy" }
+      } ,
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SystemFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#launchProjectile" } ,
+        "SubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#accelerateProjectile" } ,
+        "SubSubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#maintainPotentialEnergy" }
+      } ,
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SystemFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#launchProjectile" } ,
+        "SubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#acceptProjectile" } ,
+        "SubSubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#secureProjectile" }
+      } ,
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SystemFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#launchProjectile" } ,
+        "SubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#acceptProjectile" } ,
+        "SubSubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#releaseProjectile" }
+      } ,
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SystemFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#launchProjectile" } ,
+        "SubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#acceptProjectile" } ,
+        "SubSubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#provideStorageForProjectile" }
+      } ,
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SystemFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#launchProjectile" } ,
+        "SubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#acceptTeamInput" } ,
+        "SubSubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#accept_SupplyEnergy" }
+      } ,
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SystemFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#launchProjectile" } ,
+        "SubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#acceptTeamInput" } ,
+        "SubSubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#acceptAimingInput" }
+      } ,
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SystemFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#launchProjectile" } ,
+        "SubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#acceptTeamInput" } ,
+        "SubSubFunction": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#acceptMaintenance" }
+      }
+    ]
+  }
+}

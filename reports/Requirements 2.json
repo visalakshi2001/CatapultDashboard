@@ -1,0 +1,43 @@
+{ "head": {
+    "vars": [ "ReqID" , "ReqName" , "ReqDescription" , "System" , "SatisfiedBy" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "ReqID": { "type": "literal" , "value": "TR-1" } ,
+        "ReqName": { "type": "literal" , "value": "Max Range" } ,
+        "ReqDescription": { "type": "literal" , "value": "The Weapon shall have a maximum range up to 2m." } ,
+        "System": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SatisfiedBy": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#launchArmAssembly" }
+      } ,
+      { 
+        "ReqID": { "type": "literal" , "value": "TR-2" } ,
+        "ReqName": { "type": "literal" , "value": "Min Range" } ,
+        "ReqDescription": { "type": "literal" , "value": "The Weapon shall hit targets at a minimum range of 1 meter." } ,
+        "System": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SatisfiedBy": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#launchArmAssembly" }
+      } ,
+      { 
+        "ReqID": { "type": "literal" , "value": "TR-3" } ,
+        "ReqName": { "type": "literal" , "value": "Launch Velocity" } ,
+        "ReqDescription": { "type": "literal" , "value": "The Weapon shall produce a launch velocity between TBD and TBD m/s." } ,
+        "System": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SatisfiedBy": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#launchArmAssembly" }
+      } ,
+      { 
+        "ReqID": { "type": "literal" , "value": "TR-4" } ,
+        "ReqName": { "type": "literal" , "value": "Quadrant Elevation (QE)" } ,
+        "ReqDescription": { "type": "literal" , "value": "The Weapon shall operate between QEs of 600 to 1500 mils." } ,
+        "System": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SatisfiedBy": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#launchArmAssembly" }
+      } ,
+      { 
+        "ReqID": { "type": "literal" , "value": "TR-5" } ,
+        "ReqName": { "type": "literal" , "value": "Ergonomic Soldier Interface" } ,
+        "ReqDescription": { "type": "literal" , "value": "The Weapon shall provide an ergonomic interface for the operator to emplace, load and launch the Weapon." } ,
+        "System": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "SatisfiedBy": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_FunctionalSystem#acceptTeamInput" }
+      }
+    ]
+  }
+}

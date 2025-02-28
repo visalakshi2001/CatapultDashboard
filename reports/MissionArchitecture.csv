@@ -1,0 +1,7 @@
+Mission,Env,MissionEntities
+catapultMission,catapultEnvironment,target
+catapultMission,catapultEnvironment,judge
+catapultMission,catapultEnvironment,competingTeams
+catapultMission,catapultEnvironment,integratedProductTeam
+catapultMission,catapultEnvironment,director
+catapultMission,catapultEnvironment,projectile
