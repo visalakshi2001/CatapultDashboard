@@ -1,10 +1,7 @@
 import streamlit as st
 
-# from dashboard import  dashschedule, dashresults
-# from requirements import dashreqs
-# from architecture import sysarcfunc
-# from teststrategy import teststrat
-# from testfacility import testfacility
+from mission import missionview
+from functional import functionalview
 
 st.set_page_config(page_title="Catapult Dashboard", page_icon="🪂", layout="wide")
 
@@ -16,9 +13,9 @@ def main():
     tabs = st.tabs(TABS)
 
     with tabs[0]:
-        st.write("Mission")
+        missionview()
     with tabs[1]:
-        st.write("Functional Architecture")
+        functionalview()
     with tabs[2]:
         st.write("System Architecture")
 
