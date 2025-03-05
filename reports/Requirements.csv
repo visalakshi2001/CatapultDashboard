@@ -1,4 +1,4 @@
-Requirement ID,Requirement Name,Description,System,Satisfied By
+Requirement ID,Requirement Name,Description,Prescribes,Satisfied By
 TR-1,Max Range,The Weapon shall have a maximum range up to 2m.,catapultSystem,launchArmAssembly
 TR-2,Min Range,The Weapon shall hit targets at a minimum range of 1 meter.,catapultSystem,launchArmAssembly
 TR-3,Launch Velocity,The Weapon shall produce a launch velocity between TBD and TBD m/s.,catapultSystem,launchArmAssembly

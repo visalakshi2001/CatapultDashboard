@@ -7,7 +7,7 @@ def functionalview():
 
     functionalarch = pd.read_csv("reports/FunctionalArchitecture.csv")
     
-    st.write("#### Mission Architecture Diagram")
+    st.write("#### Functional Architecture Diagram")
 
     dot = graphviz.Digraph(comment='Hierarchy', strict=True, graph_attr={"rankdir":"LR"})
 

@@ -1,0 +1,26 @@
+{ "head": {
+    "vars": [ "SOI" , "Subsystem" , "Assembly" , "Component" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "Subsystem": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#catapultBodyAssembly" } ,
+        "Assembly": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#catapultBody" } ,
+        "Component": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#towingInterface" }
+      } ,
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "Subsystem": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#launchArmAssembly" } ,
+        "Assembly": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#projectileHolderAssembly" } ,
+        "Component": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#projectileHolder" }
+      } ,
+      { 
+        "SOI": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_Mission#catapultSystem" } ,
+        "Subsystem": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#launchArmAssembly" } ,
+        "Assembly": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#projectileHolderAssembly" } ,
+        "Component": { "type": "uri" , "value": "http://uaontologies.com/Catapult_Project/Catapult_LogicalSystem#projectileHolderScrew" }
+      }
+    ]
+  }
+}

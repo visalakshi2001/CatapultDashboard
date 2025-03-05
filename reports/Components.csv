@@ -1,0 +1,4 @@
+SOI,Subsystem,Assembly,Component
+catapultSystem,catapultBodyAssembly,catapultBody,towingInterface
+catapultSystem,launchArmAssembly,projectileHolderAssembly,projectileHolder
+catapultSystem,launchArmAssembly,projectileHolderAssembly,projectileHolderScrew
