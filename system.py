@@ -114,7 +114,9 @@ def systemview():
                 systemdot.edge(soi, subsystem, label="has subsystem") 
         
 
-    subsystemopts = st.multiselect(label="Select one/multiple subsystem(s) to expand and  display", options=completesystemsdf["Subsystem"].unique())
+    subsystemopts = st.multiselect(label="Select one/multiple subsystem(s) to expand and  display", 
+                                   options=completesystemsdf["Subsystem"].unique(),
+                                   placeholder="Choose one/more subsystems")
 
     if subsystemopts != []:
         subsetdf = completesystemsdf[completesystemsdf["Subsystem"].isin(subsystemopts)]
