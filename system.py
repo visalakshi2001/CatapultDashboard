@@ -151,4 +151,4 @@ def systemview():
 
     cols = st.columns(2)
 
-    st.graphviz_chart(systemdot, True)
+    st.graphviz_chart(systemdot)
